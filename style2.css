@@ -4765,6 +4765,13 @@ button{
   .header-logo{
     padding-top: 5%;
   }
+  .small-text{
+    background-color: black;
+    width: 45vw;
+    height: 4vh;
+    margin-left: 22%;
+    padding-top: 6px;
+  }
   .body-text2{
     text-align: center;
     border: 3px solid rgba(106, 106, 106,.3);
@@ -4793,7 +4800,7 @@ button{
   width: 13vw;
   margin-left: 45%;
   margin-top: 2%;
-  padding-left: 10px;
+  padding-left: 11px;
   padding-top: 10px;
 
   height: 6vh;
@@ -4950,10 +4957,20 @@ svg{
   height: 7vh;
   background-color: #edb218;
 }
+#formcontact{
+  background-color: #fff;
+  height: 45vh;
+  width: 90%;
+  margin-left: 1%;
+  margin-top: 12%;
+}
 }
 @media only screen and (min-width:412px) {
   .header-logo{
     padding-top: 5%;
+  }
+  .small-text{
+    
   }
   .body-text2{
     text-align: center;
