@@ -33,7 +33,7 @@ nav{
     margin-bottom: 1%;
 }
 .background-container{
-    background: url('assest/Ardent.jpg');
+    background: url('Ardent.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -194,7 +194,7 @@ h1{
     margin-top: 10%;
     position: relative;
     height: 50vh;
-    background: url("assest/Ardent5.jpg");
+    background: url("Ardent5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 14%;
@@ -1247,7 +1247,7 @@ nav{
     margin-bottom: 1%;
 }
 .background-container{
-    background: url('assest/Ardent.jpg');
+    background: url('Ardent.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1605,7 +1605,7 @@ nav{
     margin-bottom: 1%;
 }
 .background-container{
-    background: url('assest/Ardent.jpg');
+    background: url('Ardent.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -2007,7 +2007,7 @@ button{
   margin-top: 10%;
   position: relative;
   height: 50vh;
-  background: url("assest/Ardent5.jpg");
+  background: url("Ardent5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 13%;
@@ -2124,7 +2124,7 @@ nav{
     margin-bottom: 1%;
 }
 .background-container{
-    background: url('assest/Ardent.jpg');
+    background: url('Ardent.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -2553,7 +2553,7 @@ input{
   margin-top: 10%;
   position: relative;
   height: 50vh;
-  background: url("assest/Ardent5.jpg");
+  background: url("Ardent5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 13%;
@@ -3160,7 +3160,7 @@ button{
     display: none;
   }
   .background-container{
-    background: url('assest/Ardent.jpg');
+    background: url('Ardent.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 105vh;
@@ -3315,7 +3315,7 @@ button{
   margin-top: 10%;
   position: relative;
   height: 50vh;
-  background: url("assest/Ardent5.jpg");
+  background: url("Ardent5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 14%;
@@ -3679,7 +3679,7 @@ button{
       text-transform: uppercase;
   }
   .background-container{
-    background: url('assest/Ardent.jpg');
+    background: url('Ardent.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 95vh;
@@ -3826,7 +3826,7 @@ button{
     margin-top: 10%;
     position: relative;
     height: 50vh;
-    background: url("assest/Ardent5.jpg");
+    background: url("Ardent5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 28%;
@@ -4190,37 +4190,537 @@ button{
   }
 }
 @media only screen and (max-width: 375px) {
-
-  .Email{
-    margin-left: 1%;
-    width: 85%;
-    margin-top: 10px;
-    display: flex;
-    height: 10vh;
-    border-radius: 10px;
-    padding-top: 30px;
-    background-color: #fff;
-    padding-left: 23px;
+  /* Styles for typical smartphones */
+      nav{
+      display: none;
+    }
+    .body-text2{
+      text-align: center;
+      border: 3px solid rgba(106, 106, 106,.3);
+      width: 70%;
+      height: 60vh;
+      margin-left: 14%;
+      padding-top: 27%;
+      
+      -webkit-animation:  bounce-in-top 3.5s both;
+      animation:  bounce-in-top 3.5s both;
+      margin-top: 16%;
+      text-transform: uppercase;
   }
-  .phonenumber{
-    margin-left: 1%;
+  .background-container{
+    background: url('Ardent.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+
+
+
+}
+  .heading5{
+    font-size: 13px;
+  }
+  .heading3{
+    font-size: 20px;
+  }
+  .heading1{
+    font-size: 48px;
+  
+  }
+  .small-text{
+    background-color: black;
+    width: 45vw;
+    height: 5vh;
+    margin-left: 21%;
+    padding-top: -7px;
+  }
+  .small-text p{
+    font-size: 13px;
+  }
+  .circle{
+    border-radius: 50%;
+    background-color: #edb218;
+    width: 11vw;
+    margin-left: 45%;
+    margin-top: 2%;
+    padding-left: 8px;
+    padding-top: 5px;
+  
+    height: 7vh;
+    
+  }
+  #about{
+    margin-top: 10%;
+  }
+  .about{
+    text-align: center;
+    font-size: 16px;
+    margin-left: 5%;
+    color: #edb218;
+  
+  }
+  .about-text{
+    
+    /* font-weight: lighter; */
+    text-align: center;
+    margin-top: 18px;
+    width: 90%;
+    color: rgb(81, 78, 78);
+    
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .about-text1{
+    text-align: center;
+    color: #edb218;
+    font-weight: 900;
+  
+  }
+  #light{
+    color: rgb(144, 143, 143);
+    font-size: 45px;
+    margin-top: 2%;
+  }
+  .first{
+    display: block;
+    margin-left: 2%;
+    margin-top: 7%;
+  }
+  .digital{
+    margin-left: 25%;
+    font-size: 18px;
+    margin-top: -2.5%;
+  }
+  .section{
+    margin-top: 10%;
+  }
+  .section1{
+    /* margin-left: 20%; */
+    width: 100%;
+    /* text-align: center; */
+    
+  }
+  .text{
+    width: 90%;
+    /* margin-left: 20px; */
+    font-size: 13px;
+    margin-left: -7px;
+    /* margin-top: px; */
+    text-align: center;
+    color: rgb(127, 125, 125);
+  
+  
+  }
+  .section2{
+    /* margin-left: 43%; */
+    margin-top: 5%;
+  }
+  .text2{
+    margin-top: 8px;
+    text-align: center;
+    margin-left: -68%;
+    font-size: 14px;
+    width: 90vw;
+    color: rgb(127, 125, 125);
+  
+  }
+  .web{
+    margin-left: -13%;
+  }
+  .text3{
+    color: rgb(127, 125, 125);
+    margin-top: 8px;
+    width: 90vw;
+    text-align: center;
+    font-size: 13px;
+
+    margin-left: -200%;
+  
+  
+  
+  }
+  .section3{
+    margin-top: 5%;
+  
+    /* margin-left: 68%; */
+  
+  }
+  .graphics{
+    font-size: 18px;
+    margin-left: -82%;
+  
+  
+  }
+  .banner{
+    margin-top: 10%;
+    position: relative;
+    height: 50vh;
+    background: url("Ardent5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 28%;
+    width: 100%;
+    
+}
+  .text-ban{
+    color: #fff;
+    font-size: 25px;
+    /* font-weight: ; */
+    
+  -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    text-align: center;
+    
+  
+  }
+  #material-symbols-outlined{
+    color: #898989; 
+    font-size: 15px;
+  }
+  .text-para{
+    width: 85%;
+    color: rgb(226, 226, 226);
+    text-align: center;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 28px;
+  
+  }
+  .service-text2{
+    margin-top: 12px;
+    margin-left: 5%;
+    font-size: 14px;
+    color: rgb(81, 78, 78);
+    
+  
+    width: 90%;
+  }
+  .con{
+    display: block;
+    width: 100%;
+  }
+  .first-con{
+    width: 80%;
+    margin-left: 10%;
+    height: 55vh;
+  }
+  .brand-para{
+    width: 65vw;
+    margin-left: 22px;
+    margin-top: 5px;
+    color: rgb(113, 112, 112);
+  }
+  .circle-con{
+    background-color: #edb218;
+    color: #fff;
+    border-radius: 50%;
+    width: 20vw;
+    height: 13vh;
+    margin-left: 38%;
+    padding-top: 5%;
+    /* margin-top: 30px; */
+  
+  
+  }
+  hr{
+  display: none;
+  }
+  .second-con{
+    width: 80%;
+    margin-left: 10%;
+    height: 55vh;
+  
+  }
+  .circle2-con{
+    /* background-color: #edb218; */
+    color: #fff;
+    border-radius: 50%;
+    width: 20vw;
+    height: 13vh;
+    margin-left: 38%;
+    padding-top: 5%;
+    /* margin-top: 30px; */
+  }
+  .Third-con{
+    width: 80%;
+    margin-left: 10%;
+    height: 55vh;
+  }
+  .random{
+    margin-top: 6%;
+    background-color: #fff;
+    display: none;
+    gap: 1%;
+    padding-right: 1%;
+    height: 27vh;
+    width: 100%;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    padding-top: 20%;
+    
+  }
+  .random2{
     width: 85%;
     display: flex;
-    height: 10vh;
-    border-radius: 10px;
-    padding-top: 17px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    animation: slide-left 5s;
+  
+  
+  }
+  .num{
+    font-size: 16px;
+  }
+  .Happy{
+    margin-left: 75px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .port-para{
+    width: 85vw;
+    font-size: 13px;
+    margin-left: 8%;
+    margin-top: 12px;
+  }
+  .ul{
+    display: flex;
+    text-decoration: none;
+    margin-top: 10%;
+    width: 50vw;
+    text-align: center;
+    margin-left: 15%;
+    gap: 15px;
+    justify-content: space-evenly;
+  }
+  .br-img{
+    width:100%;
+    max-width:120px; 
+    margin-left: 25%;
+  }
+  #all{
+    margin-top: 3%;
+    padding-top: 3%;
+    display: grid;
+    margin-left: 2%;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows with equal height */
+    gap: 5px; /* Optional: Adds space between grid items */
+    width: 100%; /* Adjust as needed */
+    height: 300px; /* Adjust the height */
+  }
+  .br-img2{
+    width:100%;
+    max-width:120px; 
+    height: 42vh;
+     max-height: 120px; 
+    margin-left: 3%;
+  }
+  .br-img3{
+    width:100%;
+    max-width:120px; 
+    margin-top: -6%;
+    height: 42vh;
+    max-height: 120px; 
+    margin-left: 24%;
+  }
+  .br-img4{
+    width:100%;
+    max-width:120px; 
+    height: 42vh;
+    margin-top: -6%;
+    max-height: 120px; 
+    
+  }
+  .port-text{
+    font-size: 20px;
+  }
+  #skills{
+    margin-top: 10%;
     background-color: #fff;
-    padding-left: 23px;
+    padding-left: 13%;
+    padding-top: 18px;
+    display: block;
+    width: 100%;
+    height: 32vh;
+  }
+  .text-skill{
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+  }
+  .text-skills{
+    width: 100%;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .skill{
+    width: 100%;
+    margin-left: -8%;
+  }
+  
+  .progress{
+    width: 70%;
+    margin-top: 23%;
+    margin-left: -10%;
+  }
+  .graphics{
+    font-size: 13px;
+    margin-left: 1%;
+    /* width: 100%; */
+  
   }
   #ourteam{
-    margin-top: 52%;
+    margin-top: 60%;
+  }
+  .graphico{
+    margin-left: -101%;
+    font-size: 17px; 
+    text-transform: capitalize;
+  }
+  .teamconalm{
+    display: block;
+    margin-left: 6%;
+    /* padding-top: 5%; */
+  }
+  .ourteam{
+    font-size: 22px;
+  }
+  .Tname1{
+    font-weight: bolder;
+    margin-left: 1px;
+  }
+  .circleteam{
+    border-radius: 50%;
+    background-color: #ccc;
+    width: 50%;
+    height: 18vh;
+    margin-top: 5%;
+  }
+  .shortp{
+    width: 80%;
+    font-size: 10px;
+  }
+  .roles{
+    margin-left: 1px;
+  }
+  .teamcon1{
+    margin-top: 6%;
+    margin-left: 2%;
+  }
+  .teampara{
+    text-align: center;
+    font-size: 16px;
+  }
+  .teamSubhead{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 6px;
+  }
+  .contactcon{
+    margin-left: 5%;
+    display: block;
+    margin-top: 3%;
+    width: 100%;
+  }
+  .phonenumber{
+    margin-left: 5%;
+    width: 80%;
+    display: flex;
+    height: 12vh;
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: #fff;
+    padding-left: 23px;
+  }
+  .callicon{
+    border-radius: 50%;
+    width: 17%;
+    height: 8vh;
+    background-color: #edb218;
+  }
+  .phonetxt{
+    margin-left: 6px;
+  }
+  svg{
+    width: 50%;
+    margin-left: 12px;
+    margin-top: 6px;
+  }
+  .Email{
+    margin-left: 5%;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    height: 12vh;
+    border-radius: 10px;
+    padding-top: 23px;
+    background-color: #fff;
+    padding-left: 23px;
+  }
+  
+  .formcon{
+    padding-top: 4%;
+    padding-left: 4%;
+  }
+  #formcontact{
+    background-color: #fff;
+    height: 54vh;
+    width: 90%;
+    margin-left: 1%;
+    margin-top: 12%;
+  }
+  .inputbox1{
+    margin-top: 22px;
+  }
+  .inputbox2{
+    margin-top: 15px;
+  }
+  input{
+    width: 40vw;
+    /* border-radius: 5px; */
+    height: 6vh;
+    margin-left: 1px;
+  }
+  #msg{
+    margin-top: 12px;
+    height: 9vh;
+    width: 81vw;
+  }
+  button{
+    width: 35vw;
+    /* margin-left: 7px; */
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    height: 6vh;
+    background-color: #edb218;
+    color: #fff;
+    border: none;
+  }
+  #contact{
+    margin-top: 12%;
+  }
+  .emailtext{
+    margin-left: 3%;
+    margin-top: -7%;
+  
+  }
+  .email{
+    margin-left: 3%;
+    margin-top: -7%;
+  }
+  #msgcon{
+    margin-top: -5%;
+  }
+  .portfolio-text{
+    text-align: center;
+    margin-top: 15%;
   }
 }
 @media only screen and (max-width: 414px) {
   /* Styles for larger smartphones */
-  .header-logo{
-    padding-top: 7%;
-  }
   nav{
     display: none;
   }
@@ -4228,17 +4728,17 @@ button{
     text-align: center;
     border: 3px solid rgba(106, 106, 106,.3);
     width: 70%;
-    height: 40vh;
+    height: 60vh;
     margin-left: 14%;
     padding-top: 27%;
     
     -webkit-animation:  bounce-in-top 3.5s both;
     animation:  bounce-in-top 3.5s both;
-    margin-top: 26%;
+    margin-top: 16%;
     text-transform: uppercase;
 }
 .background-container{
-  background: url('assest/Ardent.jpg');
+  background: url('Ardent.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
@@ -4270,11 +4770,11 @@ button{
 .circle{
   border-radius: 50%;
   background-color: #edb218;
-  width: 15vw;
-  margin-left: 43%;
+  width: 8vw;
+  margin-left: 45%;
   margin-top: 2%;
-  padding-left: 18px;
-  padding-top: 14px;
+  padding-left: 3.5px;
+  padding-top: 4px;
 
   height: 6vh;
   
@@ -4384,8 +4884,8 @@ button{
 .banner{
   margin-top: 10%;
   position: relative;
-  height: 30vh;
-  background: url("assest/Ardent5.jpg");
+  height: 50vh;
+  background: url("Ardent5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 22%;
@@ -4432,7 +4932,7 @@ button{
 .first-con{
   width: 80%;
   margin-left: 10%;
-  height: 43vh;
+  height: 55vh;
 }
 .brand-para{
   width: 65vw;
@@ -4444,10 +4944,10 @@ button{
   background-color: #edb218;
   color: #fff;
   border-radius: 50%;
-  width: 25vw;
-  height: 12vh;
-  margin-left: 33%;
-  padding-top: 9%;
+  width: 20vw;
+  height: 15vh;
+  margin-left: 38%;
+  padding-top: 7%;
   /* margin-top: 30px; */
 
 
@@ -4458,23 +4958,23 @@ display: none;
 .second-con{
   width: 80%;
   margin-left: 10%;
-  height: 43vh;
+  height: 55vh;
 
 }
 .circle2-con{
   /* background-color: #edb218; */
   color: #fff;
   border-radius: 50%;
-  width: 25vw;
-  height: 12vh;
-  margin-left: 33%;
-  padding-top: 9%;
+  width: 20vw;
+  height: 15vh;
+  margin-left: 38%;
+  padding-top: 6%;
   /* margin-top: 30px; */
 }
 .Third-con{
   width: 80%;
   margin-left: 10%;
-  height: 43vh;
+  height: 55vh;
 }
 .random{
   margin-top: 6%;
@@ -4569,7 +5069,7 @@ display: none;
   margin-top: 30%;
   background-color: #fff;
   padding-left: 13%;
-  padding-top: 65px;
+  padding-top: 18px;
   display: block;
   width: 100%;
   height: 32vh;
@@ -4592,7 +5092,7 @@ display: none;
 
 .progress{
   width: 70%;
-  margin-top: 40%;
+  margin-top: 23%;
   margin-left: -10%;
 }
 .graphics{
@@ -4602,7 +5102,7 @@ display: none;
 
 }
 #ourteam{
-  margin-top: 50%;
+  margin-top: 60%;
 }
 .graphico{
   margin-left: -101%;
@@ -4624,8 +5124,8 @@ display: none;
 .circleteam{
   border-radius: 50%;
   background-color: #ccc;
-  width: 42%;
-  height: 10vh;
+  width: 43%;
+  height: 18vh;
   margin-top: 5%;
 }
 .shortp{
@@ -4658,16 +5158,16 @@ display: none;
   margin-left: 10%;
   width: 73%;
   display: flex;
-  height: 10vh;
+  height: 12vh;
   border-radius: 10px;
-  padding-top: 17px;
+  padding-top: 10px;
   background-color: #fff;
   padding-left: 23px;
 }
 .callicon{
   border-radius: 50%;
-  width: 20%;
-  height: 7vh;
+  width: 17%;
+  height: 9vh;
   background-color: #edb218;
 }
 .phonetxt{
@@ -4675,17 +5175,17 @@ display: none;
 }
 svg{
   width: 50%;
-  margin-left: 15px;
-  margin-top: 10px;
+  margin-left: 12px;
+  margin-top: 8px;
 }
 .Email{
   margin-left: 10%;
   width: 73%;
   margin-top: 10px;
   display: flex;
-  height: 10vh;
+  height: 12vh;
   border-radius: 10px;
-  padding-top: 30px;
+  padding-top: 23px;
   background-color: #fff;
   padding-left: 23px;
 }
@@ -4696,7 +5196,7 @@ svg{
 }
 #formcontact{
   background-color: #fff;
-  height: 42vh;
+  height: 54vh;
   width: 90%;
   margin-left: 1%;
   margin-top: 12%;
@@ -4749,28 +5249,10 @@ button{
   margin-top: 15%;
 }
 }
-@media only screen and (max-width:414px) and (max-height: 736px) {
-  #ourteam{
-    margin-top: 70%;
-  }
-  .circleteam{
-    border-radius: 50%;
-    background-color: #ccc;
-    width: 40%;
-    height: 11vh;
-    margin-top: 4%;
-  }
-}
-@media only screen and (max-width: 360px){
+
+@media only screen and (max-width: 360px) {
   .header-logo{
     padding-top: 5%;
-  }
-  .small-text{
-    background-color: black;
-    width: 45vw;
-    height: 4vh;
-    margin-left: 22%;
-    padding-top: 6px;
   }
   .body-text2{
     text-align: center;
@@ -4785,22 +5267,13 @@ button{
     margin-top: 30%;
     text-transform: uppercase;
 }
-#skills{
-  margin-top: 20%;
-  background-color: #fff;
-  padding-left: 13%;
-  padding-top: 40px;
-  display: block;
-  width: 100%;
-  height: 32vh;
-}
 .circle{
   border-radius: 50%;
   background-color: #edb218;
   width: 13vw;
   margin-left: 45%;
   margin-top: 2%;
-  padding-left: 11px;
+  padding-left: 10px;
   padding-top: 10px;
 
   height: 6vh;
@@ -4909,200 +5382,6 @@ display: none;
   margin-left: 3%;
   margin-top: -7%;
 }
-svg{
-  width: 50%;
-  margin-left: 13px;
-  margin-top: 10px;
-}
-.Email{
-  margin-left: 5%;
-  width: 85%;
-  margin-top: 10px;
-  display: flex;
-  height: 10vh;
-  border-radius: 10px;
-  padding-top: 23px;
-  background-color: #fff;
-  padding-left: 20px;
-}
-.phonenumber{
-  margin-left: 5%;
-  width: 85%;
-  display: flex;
-  height: 10vh;
-  border-radius: 10px;
-  padding-top: 10px;
-  background-color: #fff;
-  padding-left: 20px;
-}
-.callicon{
-  border-radius: 50%;
-  width: 17%;
-  height: 7vh;
-  background-color: #edb218;
-}
-.circleteam{
-  border-radius: 50%;
-  background-color: #ccc;
-  width: 43%;
-  height: 10vh;
-  margin-top: 5%;
-}
-#ourteam{
-  margin-top: 70%;
-}
-.callicon{
-  border-radius: 50%;
-  width: 17%;
-  height: 7vh;
-  background-color: #edb218;
-}
-#formcontact{
-  background-color: #fff;
-  height: 45vh;
-  width: 90%;
-  margin-left: 1%;
-  margin-top: 12%;
-}
-}
-@media only screen and (min-width:412px) {
-  .header-logo{
-    padding-top: 5%;
-  }
-  .small-text{
-    
-  }
-  .body-text2{
-    text-align: center;
-    border: 3px solid rgba(106, 106, 106,.3);
-    width: 80%;
-    height: 40vh;
-    margin-left: 10%;
-    padding-top: 23%;
-    
-    -webkit-animation:  bounce-in-top 3.5s both;
-    animation:  bounce-in-top 3.5s both;
-    margin-top: 30%;
-    text-transform: uppercase;
-}
-.circle{
-  border-radius: 50%;
-  background-color: #edb218;
-  width: 13vw;
-  margin-left: 45%;
-  margin-top: 2%;
-  padding-left: 14px;
-  padding-top: 14px;
-
-  height: 6vh;
-  
-}
-.banner{
-  margin-top: 10%;
-  position: relative;
-  height: 30vh;
-  background: url("assest/Ardent5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 20%;
-  width: 100%;
-  
-}
-.first-con{
-  width: 80%;
-  margin-left: 10%;
-  height: 40vh;
-}
-.circle-con{
-  background-color: #edb218;
-  color: #fff;
-  border-radius: 50%;
-  width: 24vw;
-  height: 11vh;
-  margin-left: 34%;
-  padding-top: 8%;
-  /* margin-top: 30px; */
-
-
-}
-hr{
-display: none;
-}
-.second-con{
-  width: 80%;
-  margin-left: 10%;
-  height: 40vh;
-
-}
-.circle2-con{
-  /* background-color: #edb218; */
-  color: #fff;
-  border-radius: 50%;
-  width: 24vw;
-  height: 11vh;
-  margin-left: 34%;
-  padding-top: 8%;
-  /* margin-top: 30px; */
-}
-.Third-con{
-  width: 80%;
-  margin-left: 10%;
-  height: 40vh;
-}
-.br-img{
-  width:100%;
-  max-width:150px; 
-  margin-left: 25%;
-}
-#all{
-  margin-top: 3%;
-  padding-top: 3%;
-  display: grid;
-  margin-left: -3%;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-  grid-template-rows: repeat(2, 1fr);    /* 2 rows with equal height */
-  gap: 35px; /* Optional: Adds space between grid items */
-  width: 100%; /* Adjust as needed */
-  height: 300px; /* Adjust the height */
-}
-.br-img2{
-  width:100%;
-  max-width:150px; 
-  height: 42vh;
-   max-height: 150px; 
-  margin-left: 3%;
-}
-.br-img3{
-  width:100%;
-  max-width:150px; 
-  margin-top: -13%;
-  height: 42vh;
-  max-height: 150px; 
-  margin-left: 24%;
-}
-.br-img4{
-  width:100%;
-  max-width:150px; 
-  height: 42vh;
-  margin-top: -13%;
-  max-height: 150px; 
-  
-}
-.progress{
-  margin-top: 40%;
-}
-.skill{
-  padding-top: 14%;
-}
-.emailtext{
-  margin-left: 3%;
-  margin-top: -7%;
-
-}
-.email{
-  margin-left: 3%;
-  margin-top: -7%;
-}
 .Email{
   margin-left: 5%;
   width: 80%;
@@ -5124,19 +5403,10 @@ display: none;
   background-color: #fff;
   padding-left: 20px;
 }
-#skills{
-  margin-top: 20%;
-  background-color: #fff;
-  padding-left: 13%;
-  padding-top: 20px;
-  display: block;
-  width: 100%;
-  height: 32vh;
-}
 .callicon{
   border-radius: 50%;
   width: 17%;
-  height: 6vh;
+  height: 7vh;
   background-color: #edb218;
 }
 .circleteam{
@@ -5145,318 +5415,5 @@ display: none;
   width: 43%;
   height: 10vh;
   margin-top: 5%;
-}
-svg{
-  width: 50%;
-  margin-left: 14px;
-  margin-top: 8px;
-}
-#formcontact{
-  background-color: #fff;
-  height: 43vh;
-  width: 90%;
-  margin-left: 1%;
-  margin-top: 12%;
-}
-}
-@media only screen and (min-width:430px) {
-  .header-logo{
-    padding-top: 5%;
-  }
-  .body-text2{
-    text-align: center;
-    border: 3px solid rgba(106, 106, 106,.3);
-    width: 80%;
-    height: 40vh;
-    margin-left: 10%;
-    padding-top: 23%;
-    
-    -webkit-animation:  bounce-in-top 3.5s both;
-    animation:  bounce-in-top 3.5s both;
-    margin-top: 30%;
-    text-transform: uppercase;
-}
-.random{
-  display: none;
-}
-.circle{
-  border-radius: 50%;
-  background-color: #edb218;
-  width: 13vw;
-  margin-left: 45%;
-  margin-top: 2%;
-  padding-left: 15px;
-  padding-top: 14px;
-
-  height: 6vh;
-  
-}
-.small-text{
-  background-color: black;
-  width: 45vw;
-  height: 4vh;
-  margin-left: 22%;
-  padding-top: 3px;
-}
-.banner{
-  margin-top: 10%;
-  position: relative;
-  height: 30vh;
-  background: url("assest/Ardent5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 20%;
-  width: 100%;
-  
-}
-.text-para{
-  width: 80%;
-  color: rgb(226, 226, 226);
-  text-align: center;
-  font-size: 18px;
-  margin-top: 15px;
-  margin-left: 9%;
-  font-weight: 300;
-}
-.first-con{
-  width: 80%;
-  margin-left: 10%;
-  height: 40vh;
-}
-.circle-con{
-  background-color: #edb218;
-  color: #fff;
-  border-radius: 50%;
-  width: 24vw;
-  height: 11vh;
-  margin-left: 34%;
-  padding-top: 8%;
-  /* margin-top: 30px; */
-
-
-}
-hr{
-display: none;
-}
-.second-con{
-  width: 80%;
-  margin-left: 10%;
-  height: 40vh;
-
-}  .ul{
-  display: flex;
-  text-decoration: none;
-  margin-top: 7%;
-  width: 50vw;
-  text-align: center;
-  margin-left: 14%;
-  justify-content: space-evenly;
-}
-.circle2-con{
-  /* background-color: #edb218; */
-  color: #fff;
-  border-radius: 50%;
-  width: 24vw;
-  height: 11vh;
-  margin-left: 34%;
-  padding-top: 8%;
-  /* margin-top: 30px; */
-}
-.Third-con{
-  width: 80%;
-  margin-left: 10%;
-  height: 40vh;
-}
-.br-img{
-  width:100%;
-  max-width:150px; 
-  margin-left: 25%;
-}
-#all{
-  margin-top: 3%;
-  padding-top: 3%;
-  display: grid;
-  margin-left: -2%;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-  grid-template-rows: repeat(2, 1fr);    /* 2 rows with equal height */
-  gap: 35px; /* Optional: Adds space between grid items */
-  width: 100%; /* Adjust as needed */
-  height: 300px; /* Adjust the height */
-}
-.br-img2{
-  width:100%;
-  max-width:150px; 
-  height: 42vh;
-   max-height: 150px; 
-  margin-left: 3%;
-}
-.br-img3{
-  width:100%;
-  max-width:150px; 
-  margin-top: -13%;
-  height: 42vh;
-  max-height: 150px; 
-  margin-left: 24%;
-}
-.br-img4{
-  width:100%;
-  max-width:150px; 
-  height: 42vh;
-  margin-top: -13%;
-  max-height: 150px; 
-  
-}
-.progress{
-  margin-top: 45%;
-}
-.skill{
-  padding-top: 5%;
-}
-.emailtext{
-  margin-left: 3%;
-  margin-top: -7%;
-
-}
-.email{
-  margin-left: 3%;
-  margin-top: -7%;
-}
-.Email{
-  margin-left: 5%;
-  width: 80%;
-  margin-top: 10px;
-  display: flex;
-  height: 10vh;
-  border-radius: 10px;
-  padding-top: 35px;
-  background-color: #fff;
-  padding-left: 20px;
-}
-.phonenumber{
-  margin-left: 5%;
-  width: 80%;
-  display: flex;
-  height: 10vh;
-  border-radius: 10px;
-  padding-top: 15px;
-  background-color: #fff;
-  padding-left: 20px;
-}
-.callicon{
-  border-radius: 50%;
-  width: 17%;
-  height: 6vh;
-  background-color: #edb218;
-}
-.circleteam{
-  border-radius: 50%;
-  background-color: #ccc;
-  width: 75%;
-  height: 13vh;
-  margin-top: 7%;
-}
-svg{
-  width: 50%;
-  margin-left: 14px;
-  margin-top: 8px;
-}
-#formcontact{
-  background-color: #fff;
-  height: 43vh;
-  width: 90%;
-  margin-left: 1%;
-  margin-top: 12%;
-}
-.digital{
-  margin-left: 28%;
-  font-size: 18px;
-  margin-top: -2.5%;
-}
-.section{
-  margin-top: 10%;
-}
-.section1{
-  /* margin-left: 20%; */
-  width: 100%;
-  /* text-align: center; */
-  
-}
-.text{
-  width: 90%;
-  /* margin-left: 20px; */
-  font-size: 13px;
-  margin-left: -7px;
-  /* margin-top: px; */
-  text-align: center;
-  color: rgb(127, 125, 125);
-
-
-}
-.web{
-  margin-left: -8%;
-}
-.graphico{
-  margin-left: -101%;
-}
-.brand-para{
-  width: 65vw;
-  margin-left: 27px;
-  margin-top: 5px;
-  color: rgb(113, 112, 112);
-}
-#skills{
-  margin-top: 20%;
-  background-color: #fff;
-  padding-left: 13%;
-  padding-top: 45px;
-  display: block;
-  width: 100%;
-  height: 32vh;
-}
-#ourteam{
-  margin-top: 60%;
-}
-.teamcon1{
-  margin-top: 6%;
-  margin-left: 2%;
-}
-.formcon{
-  padding-top: 4%;
-  padding-left: 4%;
-}
-#formcontact{
-  background-color: #fff;
-  height: 43vh;
-  width: 90%;
-  margin-left: 1%;
-  margin-top: 12%;
-}
-.inputbox1{
-  margin-top: 22px;
-}
-.inputbox2{
-  margin-top: 15px;
-}
-input{
-  width: 40vw;
-  /* border-radius: 5px; */
-  height: 6vh;
-  margin-left: 1px;
-}
-#msg{
-  margin-top: 12px;
-  height: 9vh;
-  width: 81vw;
-}
-button{
-  width: 35vw;
-  /* margin-left: 7px; */
-  text-align: center;
-  margin-top: 15px;
-  font-weight: bold;
-  height: 6vh;
-  background-color: #edb218;
-  color: #fff;
-  border: none;
 }
 }
